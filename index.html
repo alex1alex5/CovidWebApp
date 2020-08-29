@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>USA COVID Tracker</title>
+    <!-- added bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container my-5">
+        <h1 class="text-center title">US COVID stats in:</h1>
+        <form class="search-location">
+            <input type="text" name="state" placeholder="What State? (Two Letters)" class="form-control p-4">
+        </form>
+        <div class="container containerCards text-center">
+            <h1 class="today m-2">Today</h1>
+            <div class="card-deck m-4">
+                <div class="card cardDeathToday p-4">
+                    <h3 class="card-title cardTitleDiedToday">Died Today</h3>
+                    <h5 class="card-subtitle p-5">0</h5>
+                </div>
+
+                <div class="card cardCasesToday p-4">
+                    <h3 class="card-title cardTitleNew">New Cases</h3>
+                    <h5 class="card-subtitle">0</h5>
+                </div>
+
+                <div class="card cardRecoveredToday p-4">
+                    <h3 class="card-title cardTitledRecoveredToday">Hospitalized</h3>
+                    <h5 class="card-subtitle">0</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="container containerCards2 text-center">
+            <h1 class="all m-2">Total</h1>
+
+            <div class="card-deck m-4">
+                <div class="card cardDeathToday p-4">
+                    <h3 class="card-title cardTitleDiedToday">Died</h3>
+                    <h5 class="card-subtitle">0</h5>
+                </div>
+
+                <div class="card cardCasesToday p-4">
+                    <h3 class="card-title cardTitleNew">New</h3>
+                    <h5 class="card-subtitle">0</h5>
+                </div>
+
+                <div class="card cardRecoveredToday p-4">
+                    <h3 class="card-title cardTitledRecoveredToday">Recovered</h3>
+                    <h5 class="card-subtitle">0</h5>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <script src="request.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

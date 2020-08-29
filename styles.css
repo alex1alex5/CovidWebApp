@@ -1,0 +1,35 @@
+/*import raleway font*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap');
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color:  rgb(24, 24, 59);
+
+    color:  rgb(206, 206, 241);
+    margin: 0;
+    padding: 0;
+}
+
+.cardDeathToday{
+    background-color:rgb(31, 31, 82);
+    color: red;
+}
+
+.cardCasesToday{
+    background-color:rgb(31, 31, 82);
+    color: yellow;
+}
+
+.cardRecoveredToday{
+    background-color:rgb(31, 31, 82);
+    color: mediumspringgreen;
+}
+
+.card-subtitle{
+    font-size: 80px;
+    white-space: nowrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
+
